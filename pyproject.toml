@@ -8,4 +8,5 @@ dependencies = [
     "scikit-learn>=1.2.0",
     "dvc>=3.0.0",
     "dvc-gdrive>=2.0.0",
+    "dvc-s3>=3.0.1",
 ]

@@ -33,3 +33,16 @@ uv sync
 ```bash
 uv run python src/train.py
 ```
+
+# Comentarios importantes:
+
+```bash
+# Configurar AWS CLI
+aws configure --profile nombre-del-perfil
+
+# Agregar remote de S3
+dvc remote add -d myremote s3://tu-bucket/ruta/dvc-storage
+
+# Si usas un perfil específico de AWS
+dvc remote modify myremote profile nombre-del-perfil
+```

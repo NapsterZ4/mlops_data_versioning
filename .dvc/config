@@ -1,0 +1,11 @@
+[core]
+    remote = data-model
+['remote "dvc-mlops"']
+    url = s3://dvc-data-mlops-lead-university
+    profile = neuralcoders
+['remote "ulead-repo"']
+    url = s3://testing-credentials-ulead
+    profile = ulead
+['remote "data-model"']
+    url = s3://jorge-zapata-mlops
+    profile = ulead-mlops
